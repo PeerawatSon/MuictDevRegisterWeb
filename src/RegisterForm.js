@@ -4,18 +4,7 @@ import Button from './Button';
 import './App.css';
 
 const RegisterForm = () => {
-  const handleRegister = () => {
-    alert('Register button clicked');
-  };
-
-  const handleLogin = () => {
-    alert('Login button clicked');
-  };
-
-  const handleForgotPassword = () => {
-    alert('Forgot Password button clicked');
-  };
-
+  
   return (
     <div className="form-container">
       <h1>ICT Mahidol Devclub</h1>
@@ -30,12 +19,12 @@ const RegisterForm = () => {
         <FormInput label="Password" type="password" placeholder="Password" />
         <FormInput label="Re-enter your Password" type="password" placeholder="Re-enter your Password" />
 
-        <Button text="Register" onClick={handleRegister} />
+        <Button text="Register" />
       </form>
       
       <p>Already have an account?</p>
-      <Button text="Login" onClick={handleLogin} className="secondary" />
-      <Button text="Forgot Password?" onClick={handleForgotPassword} className="link" />
+      <Button text="Login"  />
+      <Button text="Forgot Password?" />
     </div>
   );
 };

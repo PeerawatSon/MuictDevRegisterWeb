@@ -4,7 +4,7 @@ import Button from './Button';
 import './App.css';
 
 const RegisterForm = () => {
-  
+
   return (
     <div className="form-container">
       <h1>ICT Mahidol Devclub</h1>
@@ -19,12 +19,12 @@ const RegisterForm = () => {
         <FormInput label="Password" type="password" placeholder="Password" />
         <FormInput label="Re-enter your Password" type="password" placeholder="Re-enter your Password" />
 
-        <Button text="Register" />
+        <Button text="Register"/>
       </form>
       
       <p>Already have an account?</p>
-      <Button text="Login"  />
-      <Button text="Forgot Password?" />
+      <Button text="Login" />
+      <Button text="Forgot Password?"  />
     </div>
   );
 };
